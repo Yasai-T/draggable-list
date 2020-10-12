@@ -4,7 +4,8 @@
   "description": "draggable-list component",
   "main": "/index.js",
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook -o docs-build"
   },
   "repository": "ssh://git@github.com/Yasai-T/draggable-list.git",
   "author": "tomoki midorikawa <46930312+Yasai-T@users.noreply.github.com>",
