@@ -3,10 +3,10 @@ import { DraggableListContainer as Component } from "../src/draggableListContain
 import { itemFactory } from "../src/itemFactory";
 
 export default {
-  title: "DraggableItem",
+  title: "Draggable",
 };
 
-export const DraggableListContainer: FC = () => {
+export const DraggableList: FC = () => {
   const items = itemFactory.buildList(10);
   return <Component items={items} />;
 };
