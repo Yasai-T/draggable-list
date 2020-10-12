@@ -2,7 +2,7 @@
   "name": "draggable-list",
   "version": "1.0.0",
   "description": "draggable-list component",
-  "main": "src/index.js",
+  "main": "/index.js",
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook"
   },
@@ -10,18 +10,22 @@
   "author": "tomoki midorikawa <46930312+Yasai-T@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
+    "faker": "^5.1.0",
     "immutability-helper": "^3.1.1",
     "react": "^16.13.1",
     "react-dnd": "^11.1.3",
     "react-dnd-html5-backend": "^11.1.3",
     "react-dom": "^16.13.1",
+    "rosie": "^2.0.1",
     "typescript": "^4.0.3"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.0.26",
     "@storybook/addon-essentials": "^6.0.26",
     "@storybook/react": "^6.0.26",
+    "@types/faker": "^5.1.2",
     "@types/react": "^16.9.52",
+    "@types/rosie": "^0.0.38",
     "babel-core": "^6.26.3"
   }
 }
